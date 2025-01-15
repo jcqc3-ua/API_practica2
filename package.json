@@ -3,7 +3,8 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "morgan": "^1.10.0",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "pg": "^8.13.1"
   },
   "name": "api_practica2",
   "version": "1.0.0",

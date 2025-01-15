@@ -1,15 +1,9 @@
-import mysql from 'mysql';
+import pool from 'pg';
 
-export var conexionbbdd = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'machotes123',
-  database: 'practica2iw',
+export const conexionbbdd = new pool({
+  user: 'postgres.snuzpjwolxlygxasqfwp', // Usuario de la base de datos
+  host: 'aws-0-eu-central-1.pooler.supabase.com', // Dirección del host
+  database: 'postgres', // Nombre de la base de datos
+  password: 'boXzfjOgLtGTwPVp', // Contraseña de la base de datos
+  port: 5432, // Puerto (por defecto, 5432)
 });
-
-/*export var conexionbbdd = mysql.createConnection({
-  host: 'sql206.infinityfree.com',
-  user: 'if0_38100605',
-  password: 'U9aY1SbQqN',
-  database: 'if0_38100605_iw_p2'});
-*/
