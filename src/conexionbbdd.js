@@ -1,12 +1,12 @@
-/*import mysql from 'mysql';
+import mysql from 'mysql';
 
 export var conexionbbdd = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: 'machotes123',
   database: 'practica2iw',
-});*/
-
+});
+/*
 import pkg from 'pg'; // Incompatibilidad
 const { Pool } = pkg;
 
@@ -18,4 +18,4 @@ export const conexionbbdd = new Pool({
   database: 'postgres', // Nombre de la base de datos
   password: 'boXzfjOgLtGTwPVp', // Contraseña de la base de datos
   port: 5432, // Puerto (por defecto, 5432)
-  });
+});*/

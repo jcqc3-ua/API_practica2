@@ -1,6 +1,5 @@
 import { parse } from 'dotenv';
-import  { verCategorias, getProductByCategoryId,  anadirCategoria, eliminarCategoria, modificarCategoria, anadirSubCategoria, eliminarSubCategoria, modificarSubCategoria, verSubCategoriade, getProductByCategoryName, getProductBySubcategoryId } from '../repository/categorias.js';
-import { loginUsuario, registrarUsuario, modificarUsuario, obtenerUsuario, obtenerHistoricoPedidos, obtenerEstadoPedido, obtenerCarrito, anadirProductoCarrito, eliminarProductoCarrito } from '../repository/cliente.js';
+import  { getProductByCategoryId, verSubCategoriade, getProductByCategoryName, getProductBySubcategoryId } from '../repository/categorias.js';
 import { Router } from 'express';
 const router = Router(); 
 

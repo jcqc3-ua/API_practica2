@@ -18,6 +18,7 @@ import router from './routes/api.js';
 app.use(router);
 
 // Conexión a la base de datos
+/*
 import {conexionbbdd} from './conexionbbdd.js';
 
 conexionbbdd.connect(function (error) {
@@ -27,7 +28,10 @@ conexionbbdd.connect(function (error) {
       console.log('Conexión correcta con la base de datos.');
     }
 });
+*/
 
+// Conexión a la base de datos
+import { supabase } from './supabase.js';
 // Servidor
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
